@@ -1,7 +1,7 @@
-# PigApp
+# PigApp Demo
 
-## Description
-Matlab implentation of a digital signal processing standalone application.
+## App Description
+Voice Processing desktop standalone application built in matlab.
 This app is focused on the estimation of the state of fatigue from the processeing of human voice recordings of patient undergoing a physical stress trial.
 
 The stress trial consist in the continuos as-quick-as-you-can repetition of a single word, where the primary data collected is the number and distribution of the words said during different apneas periods (i.e. the time taken by patients between two consecutive breath-ins).
@@ -13,13 +13,13 @@ Steps:
 
 The app comes with a simple GUI built on MATLAB appdesigner tool.
 
-## Additional Notes
-
-The app uses state of the art rVAD (robust Voice Activity Detection - http://kom.aau.dk/~zt/online/rVAD/) algorithm developed Zheng-Hua Tan (Department of Electronic Systems, Aalborg University, Denmark - zt@es.aau.dk).
-The main functions had been tweaked in order to adequate get the fast transition of voice during this specific trial.
-
-## OS and installantion
+## Install
 The app had been compiled to run as a standalone desktop app for Linux and Windows OS.
-The app require Matlab Runtime installed on the running machine (you can download from here:https://www.mathworks.com/products/compiler/matlab-runtime.html)
+In order to install simply download and launch the file in /YOUR_OS/for-redistribution/ folder. 
+The app require Matlab Runtime installed on the running machine (the web downloader should start automatically when main installer starts, however you can download from here:https://www.mathworks.com/products/compiler/matlab-runtime.html)
 
+
+## Additional Notes
+The app implement state of the art rVAD (robust Voice Activity Detection - http://kom.aau.dk/~zt/online/rVAD/) algorithm developed by Zheng-Hua Tan (Department of Electronic Systems, Aalborg University, Denmark - zt@es.aau.dk).
+The main functions had been tweaked in order to adequate get the fast transition of voice during this specific trial.
 
