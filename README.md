@@ -8,16 +8,17 @@ The stress trial consist in the continuos as-quick-as-you-can repetition of a si
 
 Steps:
 1- Within the GUI, Load from file or Record from the wathever defined pc audio input (built in, audiocard..) .wav file, for a given user defined duration (sec)
-2- Compute Analysis (get word and apneas distribution over time, then perform apnea spectral analisys and signal statistics)
+2- Compute Analysis (get word and apneas distribution over time, then perform apnea spectral analisys and basic signal statistics)
 3- Explore, Export or Save Data
 
 The app comes with a simple GUI built on MATLAB appdesigner tool.
 
 ## Install
-The app had been compiled to run as a standalone desktop app for Linux and Windows OS.
-In order to install simply download and launch the file in /YOUR_OS/for-redistribution/ folder. 
+The app had been compiled to run as a standalone desktop app for Linux.
+In order to install simply download and launch the file in /for-redistribution/ folder. 
 The app require Matlab Runtime installed on the running machine (the web downloader should start automatically when main installer starts, however you can download from here:https://www.mathworks.com/products/compiler/matlab-runtime.html)
 
+The MATLAB .prj file is also given, so the code it can be access through MATLAB Appdesigner
 
 ## Additional Notes
 The app implement state of the art rVAD (robust Voice Activity Detection - http://kom.aau.dk/~zt/online/rVAD/) algorithm developed by Zheng-Hua Tan (Department of Electronic Systems, Aalborg University, Denmark - zt@es.aau.dk).
