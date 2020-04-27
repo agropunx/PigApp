@@ -1,7 +1,7 @@
 # PigApp Demo
 
 ## App Description
-Voice Processing desktop standalone application built in matlab.
+Voice Processing demo application built in matlab.
 This app is focused on the estimation of the state of fatigue from the processeing of human voice recordings of patient undergoing a physical stress trial.
 
 The stress trial consist in the continuos as-quick-as-you-can repetition of a single word, where the primary data collected is the number and distribution of the words said during different apneas periods (i.e. the time taken by patients between two consecutive breath-ins).
